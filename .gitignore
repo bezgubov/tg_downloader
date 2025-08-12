@@ -1,0 +1,7 @@
+exports/*
+*_channels.txt
+*session
+venv/
+__pycache__/
+*.pyc
+*credentials*
