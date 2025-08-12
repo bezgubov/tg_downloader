@@ -6,10 +6,10 @@
 - Python 3.10+
 - Установка зависимостей: `pip install telethon tqdm colorama`
 - Получите `api_id` и `api_hash` на `https://my.telegram.org` → API Development Tools. Удобно экспортировать в переменные окружения:
-  ```bash
+```bash
 export TG_API_ID=123456
 export TG_API_HASH=your_api_hash
-  ```
+```
 
 При первом запуске скрипт запросит номер телефона и, при включённой 2FA, пароль. Создастся локальный файл сессии `tg_downloader_session.session`.
 
